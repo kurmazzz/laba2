@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/generatedNumber"
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:textSize="25pt" />
+
+    <Button
+        android:id="@+id/generateHandler"
+        android:layout_width="401dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:text="клик туть"
+        android:background="@color/colorAccent"
+        android:textSize="30dp" />
+
+</LinearLayout>
